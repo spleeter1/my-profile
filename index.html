@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nam Ng-Dinh</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="img/kid2.jpg" />
+        <!-- <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        /> -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <ul class="tabs">
+                    <li
+                        class="tab"
+                        id="profile-tab"
+                        onclick="showMainContent('profile-content')"
+                    >
+                        <i class="fa fa-user icon"></i>
+                    </li>
+                    <li
+                        class="tab"
+                        id="resume-tab"
+                        onclick="showMainContent('resume-content')"
+                    >
+                        <i class="fa fa-tasks icon"></i>
+                    </li>
+                    <!-- <li class="tab" id="contact-tab">
+                        <i class="fa fa-envelope icon"></i>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="content">
+                <div class="section active" id="profile-content">
+                    <div class="title-tab">
+                        <h1 class="h-bloc">+ Profile - About Me</h1>
+                    </div>
+
+                    <div class="title-content">
+                        <h3>Nam Nguyen-Dinh</h3>
+                    </div>
+                    <div class="row1" id="introduce">
+                        <ul class="about">
+                            <li>
+                                <div class="left-column">
+                                    <i class="glyphicon glyphicon-user"></i>
+                                    <label>Name</label>
+                                </div>
+                                <div class="right-column">
+                                    <span class="value">Nam, Nguyen-Dinh</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left-column">
+                                    <i class="glyphicon glyphicon-calendar"></i>
+                                    <label>Date of birth</label>
+                                </div>
+
+                                <div class="right-column">
+                                    <span class="value">March 03, 2003</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left-column">
+                                    <i
+                                        class="glyphicon glyphicon-map-marker"
+                                    ></i>
+                                    <label>Address </label>
+                                </div>
+
+                                <div class="right-column">
+                                    <span class="value"
+                                        >Ha Dong, Ha Noi, Viet Nam</span
+                                    >
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left-column">
+                                    <i class="glyphicon glyphicon-envelope"></i>
+                                    <label>Email </label>
+                                </div>
+
+                                <div class="right-column">
+                                    <span class="value"
+                                        >ngdnam03@gmail.com</span
+                                    >
+                                </div>
+                            </li>
+                            <li>
+                                <div class="left-column">
+                                    <i class="glyphicon glyphicon-phone"></i>
+                                    <label>Phone </label>
+                                </div>
+
+                                <div class="right-column">
+                                    <span class="value">0333660303</span>
+                                </div>
+                            </li>
+
+                            <div class="quote">
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    Be a lamp unto yourself, be a refuge to
+                                    yourself, do not seek refuge in others.
+                                </p>
+                            </div>
+                            <div class="quote">
+                                <p>
+                                    <i class="fa fa-quote-left"></i>
+                                    Có những chuyện không phải vì thấy hi vọng
+                                    mới tiếp tục kiên trì, mà vì chúng ta tiếp
+                                    tục kiên trì, mới có thể nhìn thấy hi vọng.
+                                </p>
+                            </div>
+                        </ul>
+                        <div class="cycle-slide">
+                            <img id="slide-img" src="img/pic1.jpg" />
+                        </div>
+                    </div>
+
+                    <div class="title-content">
+                        <h3>Research Intersts</h3>
+                    </div>
+                    <div class="row2">
+                        <div class="cards">
+                            <div class="card-item">
+                                <div class="icon-item">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+                                <div class="desc-details">
+                                    <span>
+                                        <h6 class="title-field">
+                                            Information Systems Design &
+                                            Development
+                                        </h6>
+                                        <p>
+                                            Focus on designing and optimizing
+                                            information systems for business
+                                            needs, including system architecture
+                                            and database management.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="icon-item">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <div class="desc-details">
+                                    <span>
+                                        <h6 class="title-field">
+                                            Web Development
+                                        </h6>
+                                        <p>
+                                            Exploring modern web technologies to
+                                            enhance user experience (UX/UI) and
+                                            build responsive, scalable web
+                                            applications.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="icon-item">
+                                    <i class="fa fa-laptop"></i>
+                                </div>
+                                <div class="desc-details">
+                                    <span>
+                                        <h6 class="title-field">
+                                            Software Engineering
+                                        </h6>
+                                        <p>
+                                            Investigating software development
+                                            methodologies and ensuring software
+                                            quality, scalability, and
+                                            maintainability.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section" id="resume-content">
+                    <div class="title-tab">
+                        <h1 class="h-bloc">+ Resume - Personal Info</h1>
+                    </div>
+                    <div class="first-item">
+                        <div class="column column1">
+                            <!--programming-->
+                            <div class="programming-skill">
+                                <div class="title-content">
+                                    <h4>Programming Skills</h4>
+                                </div>
+                                <div class="skill-bar">
+                                    <div
+                                        class="skill-bar-bar"
+                                        style="--percent: 80%"
+                                    ></div>
+                                    <div class="skill-bar-title">
+                                        <span>
+                                            Foundation Programming:
+                                            <i>C, C++, Java, Python...</i>
+                                        </span>
+                                    </div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skill-bar" style="--percent: 80%">
+                                    <div class="skill-bar-bar"></div>
+                                    <div class="skill-bar-title">
+                                        <span>
+                                            Web Programming:
+                                            <i>React TS, Flask,...</i>
+                                        </span>
+                                    </div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skill-bar" style="--percent: 75%">
+                                    <div class="skill-bar-bar"></div>
+                                    <div class="skill-bar-title">
+                                        <span>
+                                            Database Programming:
+                                            <i>SQL, SQLite...</i>
+                                        </span>
+                                    </div>
+                                    <div class="skill-bar-percent">75%</div>
+                                </div>
+                            </div>
+                            <!--end programming-->
+                            <!--office skill-->
+                            <div class="office-skill">
+                                <div class="title-content">
+                                    <h4>Office skills</h4>
+                                </div>
+                                <div class="skill-bar">
+                                    <div
+                                        class="skill-bar-bar"
+                                        style="--percent: 85%"
+                                    ></div>
+                                    <div class="skill-bar-title">
+                                        <span>
+                                            Microsoft Office:
+                                            <i>Word, Excel, PowerPoint,...</i>
+                                        </span>
+                                    </div>
+                                    <div class="skill-bar-percent">85%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div
+                                        class="skill-bar-bar"
+                                        style="--percent: 85%"
+                                    ></div>
+                                    <div class="skill-bar-title">
+                                        <span>
+                                            Google Workspace:
+                                            <i>Docs, Sheets, Slides,... </i>
+                                        </span>
+                                    </div>
+                                    <div class="skill-bar-percent">85%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div
+                                        class="skill-bar-bar"
+                                        style="--percent: 85%"
+                                    ></div>
+                                    <div class="skill-bar-title">
+                                        <span>
+                                            Photography & Video Editing
+                                            <i>AdobePS, Corel, Capcut,... </i>
+                                        </span>
+                                    </div>
+                                    <div class="skill-bar-percent">85%</div>
+                                </div>
+                            </div>
+                            <!--end office-->
+                            <!--hobbies skills-->
+                            <div class="hobbies-skill">
+                                <div class="title-content">
+                                    <h4>Hobbies skills</h4>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div
+                                        class="skill-bar-bar"
+                                        style="--percent: 90%"
+                                    ></div>
+                                    <div class="skill-bar-title">
+                                        <span>
+                                            Passionate about exploring nature
+                                        </span>
+                                    </div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+
+                                <div class="skill-bar">
+                                    <div
+                                        class="skill-bar-bar"
+                                        style="--percent: 90%"
+                                    ></div>
+                                    <div class="skill-bar-title">
+                                        <span> Gaming Strategy </span>
+                                    </div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                            </div>
+                            <!--end hobbies skills-->
+                            <!--language skill-->
+                            <div class="language-skill">
+                                <div class="title-content">
+                                    <h4>Language skills</h4>
+                                </div>
+                                <div class="skill-bar">
+                                    <div
+                                        class="skill-bar-bar"
+                                        style="--percent: 70%"
+                                    ></div>
+                                    <div class="skill-bar-title">
+                                        <span> English </span>
+                                    </div>
+
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+                            <!--end skill-->
+                        </div>
+
+                        <div class="column column2">
+                            <div class="education">
+                                <div class="title-content">
+                                    <h4>education</h4>
+                                </div>
+                                <ul class="attributes">
+                                    <li>
+                                        <div class="title-container-li">
+                                            <h5>
+                                                B.Eng. in Information Technology
+                                            </h5>
+                                            <span class="duration"
+                                                ><i class="fa fa-calendar"></i>
+                                                2021-2026</span
+                                            >
+                                        </div>
+
+                                        <h6>
+                                            <span class="fa fa-book"></span>
+                                            Posts and Telecommunications
+                                            Institute of Technology (PTIT)
+                                        </h6>
+                                        <p>
+                                            Software Engineering and Information
+                                            Systems
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="certificate">
+                                <div class="title-content">
+                                    <h4>certificate</h4>
+                                </div>
+                                <ul class="attributes">
+                                    <li>
+                                        <div class="title-container-li">
+                                            <h5>
+                                                Google Certificate
+                                            </h5>
+                                            <span class="duration"
+                                                ><i class="fa fa-calendar"></i>
+                                                06/2024</span
+                                            >
+                                        </div>
+
+                                        <h6>
+                                            <span class="fa fa-trophy"></span>
+                                            Google Data Analytics
+                                        </h6>
+                                        <p>
+                                            Eight courses, developed by Google,
+                                            that include hands-on,
+                                            practice-based assessments and are
+                                            designed to prepare them for
+                                            introductory-level roles in Data
+                                            Analytics.
+                                        </p>
+                                        <a
+                                            href="https://coursera.org/verify/professional-cert/TKAV7WHULL5G"
+                                            >Verify here</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <div class="title-container-li">
+                                            <h5>
+                                               UDEMY Certificate
+                                            </h5>
+                                            <span class="duration"
+                                                ><i class="fa fa-calendar"></i>
+                                                06/2024</span
+                                            >
+                                        </div>
+
+                                        <h6>
+                                            <span class="fa fa-trophy"></span>
+                                            JavaScript Course: From Zero to Expert!
+                                        </h6>
+                                        <p>
+                                           Studied modern JavaScript, including ES6+, async/await, and best practices, through 'JavaScript from Zero to Expert' by Jonas Schmedtmann.
+                                        </p>
+
+                                        <a
+                                            href="https://udemy-certificate.s3.amazonaws.com/image/UC-cff4de50-cf33-4e05-9c6c-c1750c6d8395.jpg"
+                                            >Verify here</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="experience">
+                                <div class="title-content">
+                                    <h4>Experience</h4>
+                                </div>
+                                 <ul class="attributes">
+                                    <li>
+                                        <div class="title-container-li">
+                                            <h5>
+                                                Intern at GeneStory
+                                            </h5>
+                                            <span class="duration"
+                                                ><i class="fa fa-calendar"></i>
+                                                07/2024-10/2024</span
+                                            >
+                                        </div>
+
+                                        <h6>
+                                            <span class="fa fa-building"></span>
+                                            GeneStory
+                                        </h6>
+                                        <p>
+                                          Joined the Biomodel project - a bioinformatics platform where I developed the frontend with ReactTS. I contributed to manage user data storage on the backend with Flask.
+                                        </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="widget-profile">
+                <div class="img-profile">
+                    <img src="img/kid2.jpg" />
+                </div>
+                <div class="profile-info-container">
+                    <div class="profile-info">
+                        <h1 class="my-name">Nam, Nguyen Dinh</h1>
+
+                        <h4>Student</h4>
+                        <h5>
+                            <i class="fa fa-map-marker"></i>
+                            Ha Noi, Viet Nam
+                        </h5>
+                    </div>
+                    <div class="profile-desc">
+                        <p class="text-desc">
+                            A student majoring in IT at PTIT
+                        </p>
+                        <p>
+                            Posts and Telecommunications Institute of Technology
+                        </p>
+                        <div class="inner-box"></div>
+                    </div>
+                    <div class="social-container">
+                        <div class="social-box">
+                            <a href="https://www.facebook.com/Nevalyashka.03"
+                                ><i class="fa fa-facebook"></i
+                            ></a>
+                        </div>
+                        <div class="social-box">
+                            <a href="mailto:ngdnam03@gmail.com"
+                                ><i class="fa fa-instagram"></i
+                            ></a>
+                        </div>
+                        <div class="social-box">
+                            <a href="https://www.linkedin.com/in/ngdn03-itptit/"
+                                ><i class="fa fa-linkedin"></i
+                            ></a>
+                        </div>
+                        <div class="social-box">
+                            <a href="https://github.com/spleeter1"
+                                ><i class="fa fa-github"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="scripts.js"></script>
+</html>
